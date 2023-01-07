@@ -27,6 +27,7 @@ app.get('/', (req, res) => {
 })
 
 
+
 app.get('/campgrounds/new', (req, res) => {
     res.render("campgrounds/new");
 }
